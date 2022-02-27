@@ -1,6 +1,4 @@
 from tkinter.font import names
-
-
 nums = [1,2,3,4,6];
 # print(nums[41])
 names = ['Shuvo','Shawon','Shiful','Sahabuddin',1,44,3,4,24,3];
@@ -15,9 +13,9 @@ print(nums);
 nums.pop(0)
 print(nums)
 del nums[2:]
-print(nums);
+print(nums)
 nums.extend([22,45,234,33]);
-print(nums);
+print(nums)
 nums.sort()
 print(nums)
 print(sum(nums))
