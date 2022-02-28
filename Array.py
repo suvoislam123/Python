@@ -34,3 +34,30 @@ arr2[1]=30
 print(arr2)
 print(id(arr2))
 print(id(arr))
+# ---------------------------Matrix------------------
+arr = array([
+    [1,2,3,4],
+    [3,5,64,3],
+    [2,3,42,3]
+])
+print(arr)
+print('data type:',arr.dtype)
+print('Dimension:',arr.ndim)#2d
+print('row X coloumn :',arr.shape)
+print('Size:',arr.size)#12
+oneD = arr.flatten();
+print(oneD)
+threeD = oneD.reshape(2,2,3)
+print(threeD)
+# matrix opertion
+a = array([
+    [1,2,3,4],
+    [4,5,68,7]
+])
+#if I make variable matrx then I will get some extra matric
+#converting array to matrix
+m= matrix(a)
+print(m)
+#direct matix
+mat = matrix('1,2,3,4;4,5,6')
+print(m.diagonal())
