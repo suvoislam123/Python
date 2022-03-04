@@ -56,7 +56,7 @@ a = array([
 ])
 #if I make variable matrx then I will get some extra matric
 #converting array to matrix
-m= matrix(a)
+m = matrix(a)
 print(m)
 #direct matix
 mat = matrix('1,2,3,4;4,5,6')
