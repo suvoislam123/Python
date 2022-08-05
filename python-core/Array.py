@@ -1,7 +1,9 @@
 from array import array
+from lib2to3.pgen2.literals import simple_escapes
 from multiprocessing.dummy import Array
 #same type er datatype hoite hobe
 #prothome data type er type code daoa lagbe
+# This is simple_escapes
 vals = array('i',[1,2,3,4,233])
 newArr = array(vals.typecode,(a*a for a in vals))#square operation
 print(newArr)
